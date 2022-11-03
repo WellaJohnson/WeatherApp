@@ -1,1 +1,3 @@
 # WeatherApp
+
+### Samples for learners
