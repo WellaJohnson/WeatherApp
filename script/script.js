@@ -24,7 +24,7 @@ const lonLiege = 5.56667;
 const langage = "fr";
 const counter = 7;
 
-const weatherUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${latLiege}&lon=${lonLiege}&appid=${apiKey}&cnt=${counter}&lang=${langage}&units=metric`;
+const weatherUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${latLiege}&lon=${lonLiege}&appid=${apiKey}&cnt=${counter}&lang=$ {langage}&units=metric`;
 console.log(weatherUrl);
 
 function fetchingDatas() {
@@ -65,9 +65,5 @@ async function displayDatas() {
 }
 displayDatas();
 
-const splide = new Splide(".splide", {
-  type: "fade",
-  rewind: true,
-});
-
-splide.mount();
+// const slidesContainer = document.getElementById("slides-container");
+// const slide = document.querySelector(".slide");
